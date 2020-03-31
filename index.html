@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Transportation Survey</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Transportation Survey</h1>
+    </div>
+    <form id="transportation-survey">
+      <div class="work-group">
+      <p>how you get to work?</p>
+      <input type="checkbox" name="work-transport" value="bike"> Riding a bike.<br>
+      <input type="checkbox" name="work-transport" value="plane"> Flying first class.<br>
+      <input type="checkbox" name="work-transport" value="carbed"> Driving your vintage car bed.<br>
+      <input type="checkbox" name="work-transport" value="razorScoot"> Scootin' around.<br>
+      <input type="checkbox" name="work-transport" value="heelies"> Shredding them heels.<br>
+      </div>
+      <br>
+      <br>
+      <div class="fun-group">
+        <p>how you get to all that fun stuff?</p>
+        <input type="checkbox" name="fun-transport" value="bike"> Riding a bike.<br>
+        <input type="checkbox" name="fun-transport" value="plane"> Flying first class.<br>
+        <input type="checkbox" name="fun-transport" value="carbed"> Driving your vintage car bed.<br>
+        <input type="checkbox" name="fun-transport" value="razorScoot"> Scootin' around.<br>
+        <input type="checkbox" name="fun-transport" value="heelies"> Shredding them heels.<br>
+      </div>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    <span id="work-responses">
+      <p>This is how you get to work:</p>
+    </span>
+    <br>
+    <span id="fun-responses">
+      <p>This is how you get to the fun stuff:</p>
+    </span>
+  </div>
+</body>
+</html>
